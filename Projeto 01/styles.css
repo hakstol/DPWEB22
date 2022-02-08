@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
+}
+
+ul{
+    /* life-style = Alterar o ícone da lista */
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit; /* inherit = Herda a cor da tag Pai */
+}
+
+.embrulho{
+    width: 580px;
+    margin: 0 auto;
+    padding-top: 63px;
+    /* background-color: blueviolet; */
+}
+
+/* Começo do estilo do header */
+#cabecalho_main{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#foto_perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 15px;
+    /* object-fit: cover = Concerta a distorção da imagem */
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #3B7D8C;
+}
+/* Fim do estilo do header */
+
+/* Começo estilo dos links */
+.link{
+    width: 100%;
+}
+
+.link > a{
+font-family: 'Montserrat', sans-serif;
+display: block;
+text-align: center;
+width: 100%;
+border-radius: 20px;
+margin: 20px 0; 
+font-weight: 600;
+font-size: 20px;
+padding: 20px 0;
+background-color: white;
+color: #3B7D8C;
+/* padding: 0px 150px;
+background-color: violet;
+*/
+}
+
+.link > a:hover{
+    background-color: rgb(4, 4, 43);
+    color: white;
+}
+/* Fim estilo links */
+
+/* Começo estilo rodapé */
+#rodape_simbolos{
+    display: flex;
+    justify-content: center;
+}
+
+.simbolo{
+    font-size: 40px;
+    margin: 0 10px;
+    color: white;
+}
+
+.simbolo:hover{
+    color: white;
+}

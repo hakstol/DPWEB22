@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito:wght@600;700;800&display=swap');
+
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Embrulho/Wrapper + Flexbox */
+.wrapper{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*  Estilo Seção Inicial */
+
+#secao-inicial{
+    background-color: #D83482;
+    color: white;
+    padding: 32px 0;
+}
+#logo{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+#link-secoes{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+}
+#link-secoes > a{
+    padding: 10px 15px;;
+}
+#link-secoes > a:hover{
+    text-decoration: underline;
+}
+.btn_menu{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    color: #D83482;
+    background-color: white;
+    padding: 10px 22px;
+    border-radius: 10px;
+}
+.btn_menu:hover{
+
+    opacity: 0.9;
+}
