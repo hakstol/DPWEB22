@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito:wght@600;700;800&display=swap');    
 
 /* CSS Reset */
 
@@ -12,7 +12,8 @@ a{
     color: inherit;
 }
 
-/* Embrulho/Wrapper + Flexbox */
+/* Embrulho/Wrapper + Flexbox (Coisas reaproveitáveis) */
+
 .wrapper{
     width: 90%;
     max-width: 1440px;
@@ -20,40 +21,122 @@ a{
 }
 .flex{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    font-family: 'Lexend Deca', sans-serif;
+    color: #EA0F78;
+    background-color: #fff;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: block;
+    width: fit-content;
+}
+.btn:hover{
+    opacity: 0.9;
 }
 
-/*  Estilo Seção Inicial */
+/* Estilo Seção Inicial (Menu + Banner) */
 
 #secao-inicial{
-    background-color: #D83482;
-    color: white;
+    background: linear-gradient(90deg, #D83482 0%, #EC0A76 100%);
     padding: 32px 0;
+    color: #fff;
 }
+
+/* Menu */
+
 #logo{
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
+    font-weight: 700;
 }
-#link-secoes{
+#links-secoes{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 16px;
 }
-#link-secoes > a{
-    padding: 10px 15px;;
+#links-secoes > a{
+    padding: 10px 15px;
 }
-#link-secoes > a:hover{
+#links-secoes > a:hover{
     text-decoration: underline;
 }
 .btn_menu{
+    font-size: 16px;
+}
+
+/* Banner */
+
+#conteudo-inicial{
+    margin-top: 64px;
+}
+#conteudo-esq{
+    width: 45%;
+}
+#conteudo-esq > h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+}
+#conteudo-esq > p{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 16px;
-    color: #D83482;
+    margin: 10px 0 32px;
+}
+
+/* Estilo Seção Artigos (Título + Artigos Principais + Artigos em Destaque) */
+/* Geral da Seção */
+
+#secao-artigos{
+    background-color: aquamarine;
+    padding: 32px 0;
+}
+#secao-artigos > h2{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #313131;
+}
+
+/* Artigos Principais */
+
+#artigos-principais{
     background-color: white;
-    padding: 10px 22px;
+    margin-top: 25px;
+}
+#secao-artigos > h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #313131;
+}
+#artigos-principais > p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    color: #B6B6B6;
+    margin: 10px 0 32px;
+}
+#cards{
+    background-color: blueviolet;
+}
+.card{
+    width: 310px;
+    background-color: white;
+    padding: 20px;
     border-radius: 10px;
 }
-.btn_menu:hover{
-
-    opacity: 0.9;
+.cabecalho_card{
+    margin-bottom: 20px;
+}
+.cabecalho_card > p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    color: #B6B6B6;
+}
+.cabecalho_card > i{
+    color: #ea2181;
+    font-size: 25px;
 }
