@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito:wght@600;700;800&display=swap');
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.wrapper {
+    width: 90%;
+    max-width: 1440px;
+    height: 112px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+}
+#links-secoes {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+#links-secoes>a {
+    padding: 10px 15px;
+}
+#links-secoes>a:hover {
+    text-decoration: underline;
+}
+#cabecalho1{
+    background: linear-gradient(90deg, #DB49C4 0%, #BC3EDB 100%);
+}
+#cabecalho2>p {
+    padding: 25px 0 22px 26px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B6B6B6;
+}
+#cabecalho2>i {
+    color: #BC3FDB;
+    font-size: 25px;
+    padding-right: 25px;
+}
+.textos>h2 {
+    color: #313131;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 26px;
+    line-height: 32px;
+    padding: 22px 0 6px 28px;
+}
+.textos>p {
+    padding: 0 0 56px 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #B6B6B6;
+}
+.cardao{
+    background-color: white;
+    border-radius: 10px;
+}
+body{
+    background-color: #F3F5F7;
+}
+.secao{
+    margin-top: 176px;
+}
