@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@400;600;700&display=swap');
+
+/* Reset CSS */
+
+* {
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: white;
+    padding: 22px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#links_menu>a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 10px 15px;
+    color: #2B2B2B;
+}
+
+#links_menu>a:hover {
+    text-decoration: underline;
+    opacity: 0.6;
+}
+
+#secao1 {
+    background-color: #F2F2F2;
+    height: 60vh;
+}
+
+#conteudo-esq>h1 {
+    margin: 137.5px 0 20px 0;
+    font-size: 36px;
+    width: 332px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #2B2B2B;
+    padding-bottom: 5px;
+    line-height: 47px;
+}
+
+#conteudo-esq>p {
+    font-size: 19px;
+    width: 514px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    color: #555555;
+    margin-bottom: 45px;
+}
+
+#conteudo-esq>a {
+    color: white;
+    background-color: #6C63FF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 47px;
+    border-radius: 5px;
+}
+
+#conteudo-esq {
+    width: 45%;
+}
+
+#img2 {
+    margin-top: 60px;
+    max-width: 569px;
+    min-width: 440px;
+    width: 45%;
+}
+
+#btn:hover {
+    background-color: #FF004D;
+}
+
+#secao2 {
+    height: 1214px;
+}
+
+#secao2>h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#secao2>h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #2B2B2B;
+    margin: 51px 0 61px;
+}
+
+#card { 
+    margin: 0 0 68px 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    align-content: space-between;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 900px;
+    justify-content: center;
+}
+
+.card1, .card2 {
+    height: 211.5px;
+    width: 340px;
+}
+
+.card1 {
+    background-color: #FF6363;
+}
+
+.card2 {
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+.cards>h3, .cards>p {
+    color: white;
+}
+
+.card2>h3 {
+    color: #2B2B2B;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 26px 0 26px 30px;
+}
+
+.card2>p {
+    color: #2B2B2B;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 282px;
+    margin: 0 31px 0 30px ;
+}
+
+#cor_card-2 {
+    background-color: #63ECFF;
+}
+
+#cor_card-3 {
+    background-color: #F363FF;
+}
+
+#cor_card-4 {
+    background-color: #63FF73;
+}
+
+#cor_card-5 {
+    background-color: #FFDD63;
+}
+
+#cor_card-6 {
+    background-color: #6663FF;
+}
+
+.centralizar_cards {
+    margin: 0 111px;
+}
