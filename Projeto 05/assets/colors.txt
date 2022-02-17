@@ -1,0 +1,15 @@
+header, cards, input, footer: #FFFF
+a, h1, h2, h3: #2B2B2B
+p: #555555
+section1: #F2F2F2
+section2: #E5E5E5
+botões: #6C63FF;
+
+Cartões:
+
+1 - #FF6363
+2 - #63ECFF
+3 - #F363FF
+4 - #63FF73
+5 - #FFDD63
+6 - #6663FF

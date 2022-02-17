@@ -1,0 +1,16 @@
+Tipografia
+
+Merriweather Black 900
+Rubik Regular 400
+
+---------------------------------------------------------/-------------------------------------------------------
+
+Paleta de cores
+
+header, h1 , article:   #3C184E
+p, section 2, botão:    #713FFF
+h3, h2, p, section 1:   #FFFFFF
+
+
+
+<i class="fa-solid fa-spray-can-sparkles"></i>

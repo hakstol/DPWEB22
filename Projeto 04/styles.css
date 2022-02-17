@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Rubik&display=swap');
+
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#links_menu>h3 ,a, p {
+    font-family: 'Rubik', sans-serif;
+}
+
+#links_menu>a{
+    padding: 10px 12px;
+    margin: 0 7px;
+}
+
+header {
+    background-color: #3C184E;
+    color: white;
+    padding: 10px;
+}
+
+.wrapper {
+    width: 60%;
+    max-width: 900;
+    margin: 0 auto;
+}
+
+#botao>a{
+    color: #ffff;
+    font-size: 16px;
+    padding: 12px 32px;
+    background-color: #713FFF;
+    border-radius: 40px;
+}
+
+.wrapper>h2{
+    font-size: 48px;
+    line-height: 60px;
+    padding: 64px 0 0;
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+#links_menu>i, #links_menu>h3 {
+    font-size: 22px;
+    padding: 10px 10px;
+}
+
+section{
+    background-color: #fff;
+    height: 400px;
+}
+
+.conteudo{
+    padding: 50px;
+    margin: 64px auto;
+}
+
+.conteudo>h1{
+    font-size: 64px;
+    width: 630px;
+}
+
+.conteudo>p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.conteudo>h1, .conteudo>p{
+    color: #3C184E;
+}
+
+#secao2{
+    background-color: #713FFF;
+    min-height: 90vh;
+}
+
+.artigo{
+    background-color: #3C184E;
+    color: #fff;
+    height: 215px;
+    border-radius: 10px;
+    margin: 64px 0 100px 0;
+}
+
+.artigo>h3{
+    font-size: 28px;
+    line-height: 29px;
+}
+
+.artigo>p{
+    font-size: 20px;
+    line-height: 23px;
+    width: 1080px;
+}
+
+.artigo>h3, .artigo>p{
+    padding: 20px 0 16px 20px;
+}
+
+footer{
+    background-color: #3C184E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: #fff;
+}
