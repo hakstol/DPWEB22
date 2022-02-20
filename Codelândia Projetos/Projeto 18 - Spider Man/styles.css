@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
+
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#links_menu {
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #F9F9F9;
+}
+
+#a-central {
+    margin: 0 58px;
+}
+
+#logo-meio {
+    margin: 0 220px 0 420px;
+}
+
+header {
+    background: rgba(29, 29, 29, 0.5);
+    padding: 22px;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-lateral {
+    background: rgba(29, 29, 29, 0.5);
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    position: fixed;
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logoIuri {
+    margin-top: 25px;
+}
+
+#icones-cima {
+    display: flex;
+    flex-direction: column;
+    margin: 108px 0 350px 0;
+}
+
+.central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 333px;
+}
+
+#btn {
+    width: 350px;
+    height: 70px;
+    background-color: #1D1D1D;
+    border: 2px solid #EC111A;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+#btn>p {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #F9F9F9;
+    padding-right: 24px;
+    text-transform: uppercase;
+}
