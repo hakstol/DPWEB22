@@ -1,0 +1,44 @@
+.lampada {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.apagada {
+    background-color: #727272;
+}
+
+.acesa {
+    background-color: #ffff00;
+}
+
+#acender, #apagar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#acender {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#acender:hover {
+    background-color: #ffff00;
+}
+
+#apagar {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+#apagar:hover {
+    background-color: #727272;
+}

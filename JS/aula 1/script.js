@@ -35,3 +35,11 @@ function mudarCorDiv() {
 function outraCor() {
     document.getElementById("quadrado").style.backgroundColor = "black"
 }
+
+function acender() {
+    document.getElementById("quadrado").classList.replace("apagada", "acesa")
+}
+
+function apagar() {
+    document.getElementById("quadrado").classList.replace("acesa", "apagada")
+}

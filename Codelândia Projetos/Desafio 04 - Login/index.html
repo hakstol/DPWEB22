@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <section id="secao-esq" style="background-color: #F7FAFC;">
+        <img src="./assets/imgs/Usuarios.png" alt="Usuários">
+    </section>
+
+    <section id="secao-dir">
+        <div id="conteudo">
+            <h1>Bem vindo de volta</h1>
+            <h2>Faça login na sua conta</h2>
+            <form>
+                <label id="e-mail" for="Email">E-mail</label>
+                <input type="email" id="email" name="email_pessoa">
+
+                <label id="senha-label" for="Senha">Senha</label>
+                <input type="password" name="password" id="senha">
+
+                <div id="separar">
+                    <div class="lembrar">
+                        <input id="bolinha" type="checkbox">
+                        <label for="Lembre de mim">Lembre de mim</label>
+                    </div>
+
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+
+                <button id="btn_login">Entrar</button>
+                
+                <button style="background-color: black;" id="btn_google"><img src="./assets/imgs/iconGoogle.png"
+                        alt="Ícone do Google"> Ou faça login com o google</button>
+            </form>
+
+            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </div>
+    </section>
+</body>
+
+</html>
