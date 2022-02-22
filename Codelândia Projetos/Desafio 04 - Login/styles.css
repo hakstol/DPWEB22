@@ -98,10 +98,6 @@ form {
     margin-bottom: 26px;
 }
 
-#bolinha {
-    border-radius: 50%;
-}
-
 a {
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -123,6 +119,8 @@ a {
     background: #04C45C;
     border-radius: 5px;
     margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
 }
 
 #btn_google {
@@ -136,6 +134,8 @@ a {
     background: #1A202C;
     border-radius: 5px;
     margin-bottom: 162px;
+    text-align: center;
+    cursor: pointer;
 }
 
 p {
