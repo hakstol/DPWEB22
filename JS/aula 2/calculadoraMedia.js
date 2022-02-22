@@ -10,4 +10,7 @@ function calcularMedia() {
 
     console.log("o tipo da variavel é 1:" + typeof (numeroUm));
     console.log("o tipo da variavel é 1:" + typeof (numeroDois));
+
+    document.getElementById("titulo_resultado_media").style.display = "block"
+    document.getElementById("resultado_media").innerHTML = resultadoMedia
 }

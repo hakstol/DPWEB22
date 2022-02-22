@@ -5,19 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./calculadora.js"></script>
-    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./calculadoraMedia.js"></script>
+    <script src="./calculadoraIMC.js"></script>
+    <title>Calculadora de Média e IMC</title>
 </head>
 
 <body>
     <h1>Entendendo varáveis e contas</h1>
-    <ul>
-        <li>
-            <h2>Calculadora de Média</h2>
-            <button onclick="calcularMedia()">Clique aqui para calcular a média entre dois números</button>
-        </li>
+    <ul id="wrapper">
+        <div>
+            <li id="linha1">
+                <h2>Calculadora de Média</h2>
+                <button onclick="calcularMedia()">Clique aqui para calcular a média entre dois números</button>
+                <h3 id="titulo_resultado_media" style="display: none;">Esse é o resultado do cálculo da Média: <span id="resultado_media"></span></h3>
+            </li>
+        </div>
         <li>
             <h2>Calculadora de IMC</h2>
+            <button onclick="calcularIMC()">Clique aqui para calcular o seu IMC</button>
+            <h3 id="titulo_resultado_imc" style="display: none;">Esse é o resultado do cálculo IMC: <span id="resultado_imc"></span></h3>
         </li>
     </ul>
 </body>

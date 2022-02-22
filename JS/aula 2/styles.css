@@ -1,0 +1,14 @@
+#wrapper {
+    width: 400px;
+    height: 365px;
+    background-color: rgb(177, 241, 241);
+    border-radius: 20%;
+}
+
+h2 {
+    padding-top: 30px;
+}
+
+#linha1 { 
+    margin-bottom: 20px;
+}
