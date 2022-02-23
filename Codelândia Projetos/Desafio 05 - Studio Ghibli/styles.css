@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body, html {
+    height: 100%;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -27,7 +31,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 450px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 #conteudo-esq {
@@ -76,12 +80,51 @@ header>a>img {
     display: flex;
 }
 
+#conteudo-dir {
+    height: 370px;
+}
+
 #btns {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #btn1, #btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 225px;
     height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    text-transform: uppercase;
+    color: #F9F9F9;
+    cursor: pointer;
+}
+
+#btn1 {
+    background-color: #658E76;
+    clip-path: polygon(11% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+#btn1>img {
+    justify-content: center;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#btn2 {
+    border: 2px solid #658E76;
+    clip-path: polygon(11% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+#btn1:hover, #btn2:hover{
+-moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    animation: tremer .2s;
+    animation-iteration-count: 4;
 }
