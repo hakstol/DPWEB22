@@ -17,7 +17,7 @@ header {
 }
 
 .wrapper {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -32,6 +32,13 @@ header {
     width: 224px;
     height: 60px;
     border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #0C0C0C;
 }
 
 #links_menu>a {
@@ -40,4 +47,78 @@ header {
     text-transform: uppercase;
     margin: 0 48px 0;
     padding: 10px 12px;
+}
+
+#luz-verde {
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+    width: 1209px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(134, 207, 9, 0.258984) 20.31%, rgba(155, 240, 11, 0.3) 23.53%, rgba(0, 219, 0, 0.3) 35.42%, rgba(0, 123, 0, 0.3) 40.63%, rgba(0, 132, 0, 0.3) 49.51%);
+    border: 1px solid #000000;
+    filter: blur(250px);
+    position: relative;
+}
+
+div:first-child>img {
+    position: fixed;
+}
+
+:root {
+    --body-bg: #fafafa;
+    --body-color: #555;
+    --link-color: #222;
+    --link-color-hover: #ec5840;
+}
+
+body {
+    background-color: var(--body-bg);
+    color: var(--body-color);
+}
+
+
+.dark-mode:root {
+    --body-bg: #212529;
+    --body-color: #899095;
+    --link-color: #dee2e6;
+    --link-color-hover: #3cc368;
+}
+
+.toggle {
+    display: none;
+}
+
+.toggle+label {
+    width: 40px;
+    height: 20px;
+    background: lightgrey;
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    padding: 2px;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.toggle+label::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: white;
+    display: block;
+    border-radius: 50%;
+    right: unset;
+    left: 2px;
+    top: 2px;
+    transition: 200ms;
+}
+
+.toggle:checked+label {
+    background: rgb(35, 226, 35);
+}
+
+.toggle:checked+label::before {
+    content: '';
+    left: calc(100% - 22px);
+    box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
 }

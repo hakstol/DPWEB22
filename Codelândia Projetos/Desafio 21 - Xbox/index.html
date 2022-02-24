@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,8 @@
     <link rel="stylesheet" href="./styles.css">
     <title>Xbox</title>
 </head>
-<body>
+
+<body style="background-color: #000;">
     <header>
         <nav class="wrapper flex">
             <a href="#"><img src="./assets/images/logo-xbox.svg" alt="Logo do Xbox"></a>
@@ -18,7 +20,26 @@
                 <a href="#">unbox</a>
             </div>
             <button id="btn_disponibilidade">ver disponibilidade</button>
+            <!-- Botão Dark Mode -->
+            <input type="checkbox" id="toggle" class="toggle">
+            <label for="toggle"></label>
+
+            <script src="./toggle.js"></script>
         </nav>
     </header>
+
+    <main>
+        <section id="secao-console" class="wrapper">
+            <h1>Xbox Series X</h1>
+            <p>pedido antecipado</p>
+            <div>
+                <div id="luz-verde">
+                    <img src="./assets/images/xbox.svg" alt="Imagem do console do xbox">
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
+
 </html>

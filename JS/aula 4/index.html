@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html id="html" lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -39,8 +39,62 @@
 
         <!-- Botão 2 - Muda o tamanho da fonte da Seção Parágrafos -->
         <!-- Quando clicar no botão ele muda o tamanho da fonte da secao_paragrafos -->
-        <button onclick="mudarTamanho()">Mudar o tamanho da fonte</button>
+        <button onclick="mudarTamanhoFonte()">Mudar o tamanho da fonte</button>
+
+        <!-- Botão 3 - Altera a cor da fonte dos parágrafos que estão na Seção Parágrafos -->
+        <!-- Quando clicar no botão, a cor da fonte da secao_pragrafos vai mudar -->
+        <button onclick="mudarCorFonte()">Mudar a cor da fonte</button>
+
+        <!-- Botão 4 - Altera a cor de fundo dos parágrafos que estão na Seção Parágrafos -->
+        <!-- Quando clicar no botão, a cor do fundo da secao_paragrafos vai mudar -->
+        <button onclick="mudarCorFundo()">Mudar a cor do fundo</button>
+
+        <!-- Botão 5 - Adiciona o estilo itálico para os parágrafos que estão na Seção Parágrafos -->
+        <!-- Quando clicar no botão, os textos ficam em itálico -->
+        <button onclick="mudarFonteItalico()">Deixar em Itálico</button>
+
+        <!-- Botão 6 - Adiciona o peso negrito para os paragráfos que estão na seção paragrafos -->
+        <!-- Quando clicar no botão, os textos ficam em negrito -->
+        <button onclick="mudarFonteNegrito()">Deixar em Negrito</button>
+
+        <!-- Botão 7 - Adiciona uma borda na div seção paragrafos -->
+        <!-- Quando clicar no botão, a div vai ficar com uma borda -->
+        <button onclick="adicionarBorda()">Adicionar borda</button>
+
+        <!-- Botão 8 - Remove a borda da div seção paragrafos -->
+        <!-- Quando clicar no botão, a borda da div vai ser removida -->
+        <button onclick="removerBorda()">Remover a borda</button>
+
+        <!-- Botão 9 - Esconde a div seção paragrafos -->
+        <!-- Quando clicar no botão, a div ficar escondida -->
+        <button onclick="esconderSecao()">Esconder a div</button>
+
+        <!-- Botão 10 - Aparece com a div seção parágrafos -->
+        <!-- Quando clicar no botão, a div aparece -->
+        <button onclick="mostrarSecao()">Mostra a div</button>
+
+        <!-- Botão 11 - Inserir um texto HTML no segundo elemento que possui a classe "texto" -->
+        <!-- Quando clicar no botão, o 2° elemento que possui a classe texto mudará seu conteudo interno -->
+        <button onclick="mudarSegundoTitulo()">Mudar texto do 2° h2</button>
+
+        <!-- Botão 12 - Muda a cor do fundo no primeiro elemento que possui a classe "paragrafo" -->
+        <!-- Quando clicar no botão, o 1° elemento que possui a classe paragrafo terá a cor do fundo alterada -->
+        <button onclick="mudarCorFundoParagrafo()">Mudar cor de fundo do 1º parágrafo</button>
+
+        <!-- Botão 13 - Muda a cor de um único botão -->
+        <!-- Quando clicar no botão, a cor do fundo de um botão vai mudar -->
+        <button onclick="mudarCorFundoBotao()">Mudar a cor de um botão</button>
+
+        <!-- Botão 14 - Muda a cor de todos os botões -->
+        <!-- Quando clicar no botão, a cor do fundo de todos os botões irá mudar -->
+        <button onclick="mudarCorFundoBotoes()">Mudar a cor de todos os botões</button>
+        
+        <!-- Botão Dark Mode -->
+        <input type="checkbox" id="toggle" class="toggle">
+        <label for="toggle"></label>
     </div>
+
+    <img src="./img/xuxa.jpg" alt="Computador da Xuxa">
 
     <script src="./script.js"></script>
 </body>
