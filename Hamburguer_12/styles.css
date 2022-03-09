@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    margin: 33px 0 54px 0;
+    height: 150px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    background-color: gold;
+}
+
+#links-menu>a {
+    margin: 0 123px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#links-menu>a:hover {
+    text-decoration: underline;
+}
