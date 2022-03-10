@@ -18,18 +18,38 @@ a {
 }
 
 header {
-    margin: 33px 0 54px 0;
+    margin: 40px 0 0px 0;
     height: 150px;
 }
 
 .wrapper {
     width: 90%;
     margin: 0 auto;
-    background-color: gold;
 }
 
-#links-menu>a {
-    margin: 0 123px;
+#link-cardapio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin: 0 80px 0 110px;
+}
+
+#icon {
+    margin: 0 110px 0 80px;
+}
+
+#link-hamburguer, #link-contato {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin: 0 80px;
+}
+
+a {
     text-align: center;
     padding: 10px;
     font-family: 'Open Sans', sans-serif;
@@ -39,6 +59,150 @@ header {
     color: #000000;
 }
 
-#links-menu>a:hover {
-    text-decoration: underline;
+/* link-cardapio hover underline */
+
+#link-cardapio::after {
+    content: "";
+    width: 70%;
+    height: 3px;
+    margin-top: -4px;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#link-cardapio:hover {
+
+    color: #ff0000;
+
+}
+
+#link-cardapio:hover::after {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* link-hamburguer hover underline */
+
+#link-hamburguer::after {
+    content: "";
+    width: 60%;
+    height: 3px;
+    margin-top: -4px;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#link-hamburguer:hover {
+
+    color: #ff0000;
+
+}
+
+#link-hamburguer:hover::after {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* link-contato hover underline */
+
+#link-contato::after {
+    content: "";
+    width: 60%;
+    height: 3px;
+    margin-top: -4px;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#link-contato:hover {
+
+    color: #ff0000;
+
+}
+
+#link-contato:hover::after {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+#image-banner-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.item {
+    margin-top: 54px;
+}
+
+#title1, #title3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 108px;
+    color: #F2A20C;
+
+}
+
+#title3 {
+    font-size: 70px;
+    padding: 3px 33px;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: #FF0000;
+}
+
+#title2, #title4 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    margin: 35px 0;
+    color: #000000;
+}
+
+#btn-compre-agora {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    width: 200px;
+    height: 55px;
+    background: #FF1111;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-compre-agora:hover {
+  transform: scale(1.2);
+}
+
+#texto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 1267px;
+    margin-top: -700px;
 }
