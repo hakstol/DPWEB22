@@ -44,7 +44,7 @@
       {},
       {
         slidesToScroll: 1,
-        slidesToShow: 1,
+        slidesToShow: 2,
         resizeLock: true,
         duration: 0.5,
         // easeInQuad
@@ -130,8 +130,8 @@
 
     // set slide dimensions
     [].forEach.call(_.slides, function (__) {
-      // __.style.height = 'auto'
-      __.style.width = _.itemWidth + 'px'
+      __.style.height = 'auto'
+      __.style.width = '100%'
       width += _.itemWidth
       height = Math.max(__.offsetHeight, height)
     })
