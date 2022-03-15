@@ -37,7 +37,7 @@
                             <h1 id="title2">Um sabor</h1>
                             <h1 id="title3">Tatooine Burguer</h1>
                             <h1 id="title4">De outro mundo</h1>
-                            <button type="button" id="btn-compre-agora" class="effect effect-5">Compre agora</button>
+                            <a href="#" type="button" id="btn-compre-agora" class="effect effect-5">Compre agora</a>
                         </div>
                     </div>
                     <div class="item">
@@ -46,8 +46,79 @@
                 </div>
             </div>
         </section>
-    </main>
 
+        <section id="secao-cards">
+            <h2>Cardápio</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="./assets/imgs/furioso.png" alt="">
+                    <p class="nome-burguer">furioso</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/imgs/rodeio.png" alt="">
+                    <p class="nome-burguer">rodeio</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/imgs/costela.png" alt="">
+                    <p class="nome-burguer">costela</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/imgs/mega4.0.png" alt="">
+                    <p class="nome-burguer">mega 4.0</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/imgs/tatooineburguer.png" alt="">
+                    <p class="nome-burguer">tatooine burguer</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/imgs/veggieburguer.png" alt="">
+                    <p class="nome-burguer">veggie burguer</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-nos">
+            <h3 id="h3-conteudo">A Hamburguer 12...</h3>
+            <div id="conteudo-textos">
+                <p id="conteudo-div-esq">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de
+                    impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
+                    bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+                <p id="conteudo-div-dir">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de
+                    impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
+                    bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+            </div>
+        </section>
+
+        <form>
+            <h3 id="h3-form">Contato</h3>
+            <label for="Nome">Nome*</label>
+            <input type="text" id="Nome" placeholder="Nome e sobrenome">
+            <label for="Categoria">Categoria*</label>
+            <select name="" id="Categoria">
+                <option value="" disabled selected>Selecione</option>
+                <option value="">Reclamação</option>
+                <option value="">Dúvida</option>
+                <option value="">Solicitação</option>
+                <option value="">Elogio</option>
+            </select>
+            <label for="E-mail">E-mail*</label>
+            <input type="email" id="E-mail" placeholder="email@email.com">
+            <label for="Data">Data</label>
+            <input type="date" id="Data">
+            <label for="Telefone">Telefone*</label>
+            <input type="tel" placeholder="(   )       -      ">
+            <label for="Unidade">Unidade</label>
+            <input type="text" id="Unidade" placeholder="Unidade">
+
+            <label for="Contato">Como prefere o contato?*</label>
+            <input type="radio" id="tel" value="Telefone">
+            <label for="tel">Telefone</label>
+            <input type="radio" id="email" value="E-mail">
+            <label for="email">E-mail</label>
+            <input type="radio" id="sem-preferencia" value="Sem preferência">
+            <label for="sem-preferencia">Sem preferência</label>
+        </form>
+    </main>
     <script src="./vendor/glider/glider.js"></script>
     <script src="./script.js"></script>
 </body>

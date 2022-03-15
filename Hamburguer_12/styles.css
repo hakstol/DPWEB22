@@ -273,69 +273,180 @@ button {
     animation-iteration-count: 1;
 }
 
-@-webkit-keyframes swing
-{
-    15%
-    {
+@-webkit-keyframes swing {
+    15% {
         -webkit-transform: translateX(5px);
         transform: translateX(5px);
     }
-    30%
-    {
-        -webkit-transform: translateX(-5px);
-       transform: translateX(-5px);
-    } 
-    50%
-    {
-        -webkit-transform: translateX(3px);
-        transform: translateX(3px);
-    }
-    65%
-    {
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
-    }
-    80%
-    {
-        -webkit-transform: translateX(2px);
-        transform: translateX(2px);
-    }
-    100%
-    {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-}
-@keyframes swing
-{
-    15%
-    {
-        -webkit-transform: translateX(5px);
-        transform: translateX(5px);
-    }
-    30%
-    {
+
+    30% {
         -webkit-transform: translateX(-5px);
         transform: translateX(-5px);
     }
-    50%
-    {
+
+    50% {
         -webkit-transform: translateX(3px);
         transform: translateX(3px);
     }
-    65%
-    {
+
+    65% {
         -webkit-transform: translateX(-3px);
         transform: translateX(-3px);
     }
-    80%
-    {
+
+    80% {
         -webkit-transform: translateX(2px);
         transform: translateX(2px);
     }
-    100%
-    {
+
+    100% {
         -webkit-transform: translateX(0);
         transform: translateX(0);
     }
 }
+
+@keyframes swing {
+    15% {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+
+    30% {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+
+    50% {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+
+    65% {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+
+    80% {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+/* Cards */
+#secao-cards {
+    height: 170vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 153px;
+    padding-bottom: 153px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 68px;
+    color: #000000;
+}
+
+.cards {
+    width: 1635px;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 445px;
+    height: 406px;
+    background: #FFFFFF;
+    box-shadow: -8px -10px 127px #FFFFFF, -13px -5px 92px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 97px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.nome-burguer {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Seção - Sobre Nós */
+
+#sobre-nos {
+    background-image: url("./assets/imgs/sobre-nos.png");
+    background-repeat: no-repeat;
+    height: 140vh;
+}
+
+#h3-conteudo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 109px;
+    color: #FFFFFF;
+    padding: 235px 93px 0;
+}
+
+#conteudo-textos {
+    display: flex;
+    justify-content: space-between;
+}
+
+#conteudo-div-esq, #conteudo-div-dir {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+#conteudo-div-esq {
+    font-size: 30px;
+    width: 747px;
+    height: fit-content;
+    margin: 119px;
+}
+
+#conteudo-div-dir {
+    font-size: 35px;
+    Width: 737px;
+    margin-right: 35px;
+}
+
+/* Seção - Contato */
+
+#h3-contato {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 68px;
+    color: #000000;
+}
+
