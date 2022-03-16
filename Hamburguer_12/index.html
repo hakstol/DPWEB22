@@ -14,10 +14,10 @@
 
 <body>
     <header>
-        <div class="wrapper flex">
+        <div class="wrapper flex1">
             <img src="./assets/imgs/Logo 3.svg"
                 alt="Logo da Hamburguer 12 (Eclipse com estrela em amarelo em volta do nome Hamburguer 12 em azul)">
-            <nav id="links-menu" class="flex">
+            <nav id="links-menu" class="flex1">
 
                 <div id="link-cardapio"><a href="#">Cardápio</a></div>
                 <div id="link-hamburguer"><a style="width: 200px;" href="#">Hamburguer 12</a></div>
@@ -89,38 +89,88 @@
             </div>
         </section>
 
-        <form>
+        <form id="formulario-contato-1">
             <h3 id="h3-form">Contato</h3>
-            <label for="Nome">Nome*</label>
-            <input type="text" id="Nome" placeholder="Nome e sobrenome">
-            <label for="Categoria">Categoria*</label>
-            <select name="" id="Categoria">
-                <option value="" disabled selected>Selecione</option>
-                <option value="">Reclamação</option>
-                <option value="">Dúvida</option>
-                <option value="">Solicitação</option>
-                <option value="">Elogio</option>
-            </select>
-            <label for="E-mail">E-mail*</label>
-            <input type="email" id="E-mail" placeholder="email@email.com">
-            <label for="Data">Data</label>
-            <input type="date" id="Data">
-            <label for="Telefone">Telefone*</label>
-            <input type="tel" placeholder="(   )       -      ">
-            <label for="Unidade">Unidade</label>
-            <input type="text" id="Unidade" placeholder="Unidade">
 
-            <label for="Contato">Como prefere o contato?*</label>
-            <input type="radio" id="tel" value="Telefone">
-            <label for="tel">Telefone</label>
-            <input type="radio" id="email" value="E-mail">
-            <label for="email">E-mail</label>
-            <input type="radio" id="sem-preferencia" value="Sem preferência">
-            <label for="sem-preferencia">Sem preferência</label>
+            <div id="inputs">
+                <div class="flex2">
+                    <label class="labels" for="placeholder">Nome *</label>
+                    <input class="input em-coluna-1" class="inputs" type="text" id="placeholder"
+                        placeholder="Nome e sobrenome">
+                </div>
+
+                <div class="flex2">
+                    <label class="labels" for="placeholder">Categoria *</label>
+                    <select class="em-coluna-2" name="" id="placeholder">
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="">Reclamação</option>
+                        <option value="">Dúvida</option>
+                        <option value="">Solicitação</option>
+                        <option value="">Elogio</option>
+                    </select>
+                </div>
+
+                <div class="flex2">
+                    <label class="labels" for="placeholder">E-mail *</label>
+                    <input class="input em-coluna-1" type="email" id="placeholder" placeholder="email@email.com">
+                </div>
+
+                <div class="flex2">
+                    <label class="labels" for="placeholder">Data</label>
+                    <input class="input em-coluna-2" type="date" id="placeholder">
+                </div>
+
+                <div class="flex2">
+                    <label class="labels" for="placeholder">Telefone *</label>
+                    <input class="input em-coluna-1" type="tel" id="placeholder" placeholder="(   )       -      ">
+                </div>
+
+                <div class="flex2">
+                    <label class="labels" for="placeholder">Unidade</label>
+                    <input class="input em-coluna-2" type="text" id="placeholder" placeholder="Unidade">
+                </div>
         </form>
+        </div>
+
+
+        <form id="formulario-contato-2">
+            <h3 id="h3-form-2">Como prefere o contato? *</h3>
+            <div id="radio-buttons">
+                <div>
+                    <input type="radio" id="tel" value="Telefone">
+                    <label class="radios-labels" for="tel">Telefone</label>
+                </div>
+                <div>
+                    <input type="radio" id="email" value="E-mail">
+                    <label class="radios-labels" for="email">E-mail</label>
+                </div>
+                <div>
+                    <input type="radio" id="sem-preferencia" value="Sem preferência">
+                    <label class="radios-labels" for="sem-preferencia">Sem preferência</label>
+                </div>
+            </div>
+        </form>
+
+        <form id="formulario-contato-3">
+            <label class="label-mensagem">Mensagem *</label>
+            <textarea class="text-area" id="placeholder" placeholder="Mensagem"></textarea>
+            <button id="btn-enviar-form" type="button">Enviar</button>
+        </form>
+
     </main>
+
+    <footer>
+        <div id="div-footer">
+          <img id="logo-footer" src="./assets/imgs/Logo 3.svg" alt="">
+            <p id="p-footer-1">Compartilhe conosco nas redes sociais</p>
+            <hr>
+            <nav>
+                <!-- icons -->
+            </nav>
+            <p id="p-footer-2">Imagens meramente ilustrativas. Consulte os restaurantes participantes. TM & © 2022 Hamburguer 12 Comporation. Todos os direitos reservados.</p>
+        </div>
+    </footer>
     <script src="./vendor/glider/glider.js"></script>
     <script src="./script.js"></script>
 </body>
-
 </html>

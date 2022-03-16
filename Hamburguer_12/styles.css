@@ -11,7 +11,7 @@ a {
     color: inherit;
 }
 
-.flex {
+.flex1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -442,11 +442,228 @@ h2 {
 
 /* Seção - Contato */
 
-#h3-contato {
+#formulario-contato-1 {
+    margin: 0 auto;
+    width: 878px;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#h3-form {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 50px;
     line-height: 68px;
     color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 172px 0 111px;
 }
 
+.labels {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+}
+
+#placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.input, select {
+    width: 350px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 86px rgba(0, 0, 0, 0.22), -5px -5px 149px #FFFFFF;
+    border-radius: 7px;
+    margin: 10px 0 25px;
+    padding-left: 15px;
+}
+
+#formulario-contato-2 {
+    display: flex;
+    flex-direction: column;
+    width: 878px;
+    margin: 0 auto;
+    margin-bottom: 172px;
+}
+
+#radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#h3-form-2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    color: #000000;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.radios-labels {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#formulario-contato-3 {
+    margin: 0 auto;
+    width: 878px;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.label-mensagem {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.text-area {
+    margin-top: 50px;
+    width: 100%;
+    padding: 8px 0 0 12px;
+    height: 200px;
+    background: #FFFFFF;
+    border: none;
+    /* border: 0.5px solid rgba(0, 0, 0, 0.25); */
+    box-sizing: border-box;
+    box-shadow: 0px 4px 86px rgba(0, 0, 0, 0.22), -5px -5px 149px #FFFFFF;
+    border-radius: 7px;
+}
+
+#btn-enviar-form {
+    width: 200px;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #F2A20C;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    margin-top: 150px;
+    transition: 0.6s;
+}
+
+#btn-enviar-form:focus {
+    outline: 0;
+}
+
+#btn-enviar-form:before {
+    background: rgba(255, 255, 255, 0.5);
+    width: 40px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    filter: blur(30px);
+    transform: translateX(-100px) skewX(-15deg);
+}
+
+#btn-enviar-form:after {
+    background: rgba(255, 255, 255, 0.2);
+    width: 60px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100px) skewX(-15deg);
+}
+
+#btn-enviar-form:hover {
+    background: #0616AB;
+    cursor: pointer;
+}
+
+#btn-enviar-form:hover:before {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 0.6;
+    transition: 0.7s;
+}
+
+#btn-enviar-form:hover:after {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: 0.7s;
+}
+
+/* Footer */
+
+#div-footer {
+    height: 409px;
+    background-color: #F2A20C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#p-footer-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#p-footer-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+hr {
+    width: 614px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(0deg);
+    margin-bottom: 50px;
+}
